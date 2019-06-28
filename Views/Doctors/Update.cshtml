@@ -1,0 +1,53 @@
+@model CRUD_Operations.Models.Doctors
+<section class="content-header">
+    <h1>
+    Doctors
+    </h1>
+</section>
+<!-- Main content -->
+<section class="content container-fluid">
+    <!-- Horizontal Form -->
+    <div class="box box-info">
+    <div class="box-header with-border">
+        <h3 class="box-title">Update Doctor</h3>
+    </div>
+    <!-- /.box-header -->
+    <!-- form start -->
+    <form class="form-horizontal" method="post" action="/Doctors/UpdateDoctor">
+        <div class="box-body">
+        <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+            <div class="col-sm-10">
+            <input type="Email" class="form-control" name="Email" value="@Model.Email">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">Name</label>
+            <div class="col-sm-10">
+            <input type="text" class="form-control" name="Name" placeholder="Name" value="@Model.Name">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">Phone</label>
+            <div class="col-sm-10">
+            <input type="text" class="form-control" name="Phone" placeholder="Phone" value="@Model.Phone">
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="inputEmail3" class="col-sm-2 control-label">Specialist</label>
+            <div class="col-sm-10">
+            <input type="text" class="form-control" name="Specialist" placeholder="Specialist" value="@Model.Specialist">
+            </div>
+        </div>
+        <input type="hidden" name="Id" value="@Model.Id"/>
+        </div>
+        <!-- /.box-body -->
+        <div class="box-footer">
+        <button type="submit" class="btn btn-default">Cancel</button>
+        <button type="submit" class="btn btn-info pull-right">Update</button>
+        </div>
+        <!-- /.box-footer -->
+    </form>
+    </div>
+    <!-- /.box -->
+</section>

@@ -1,0 +1,29 @@
+/Users/shehryarkhan/Projects/CRUD Operations/bin/Debug/netcoreapp2.2/CRUD Operations.deps.json
+/Users/shehryarkhan/Projects/CRUD Operations/bin/Debug/netcoreapp2.2/CRUD Operations.runtimeconfig.json
+/Users/shehryarkhan/Projects/CRUD Operations/bin/Debug/netcoreapp2.2/CRUD Operations.runtimeconfig.dev.json
+/Users/shehryarkhan/Projects/CRUD Operations/bin/Debug/netcoreapp2.2/CRUD Operations.dll
+/Users/shehryarkhan/Projects/CRUD Operations/bin/Debug/netcoreapp2.2/CRUD Operations.pdb
+/Users/shehryarkhan/Projects/CRUD Operations/bin/Debug/netcoreapp2.2/CRUD Operations.Views.dll
+/Users/shehryarkhan/Projects/CRUD Operations/bin/Debug/netcoreapp2.2/CRUD Operations.Views.pdb
+/Users/shehryarkhan/Projects/CRUD Operations/obj/Debug/netcoreapp2.2/CRUD Operations.csprojAssemblyReference.cache
+/Users/shehryarkhan/Projects/CRUD Operations/obj/Debug/netcoreapp2.2/CRUD Operations.csproj.CoreCompileInputs.cache
+/Users/shehryarkhan/Projects/CRUD Operations/obj/Debug/netcoreapp2.2/CRUD Operations.RazorAssemblyInfo.cache
+/Users/shehryarkhan/Projects/CRUD Operations/obj/Debug/netcoreapp2.2/CRUD Operations.RazorAssemblyInfo.cs
+/Users/shehryarkhan/Projects/CRUD Operations/obj/Debug/netcoreapp2.2/CRUD Operations.AssemblyInfoInputs.cache
+/Users/shehryarkhan/Projects/CRUD Operations/obj/Debug/netcoreapp2.2/CRUD Operations.AssemblyInfo.cs
+/Users/shehryarkhan/Projects/CRUD Operations/obj/Debug/netcoreapp2.2/CRUD Operations.TagHelpers.input.cache
+/Users/shehryarkhan/Projects/CRUD Operations/obj/Debug/netcoreapp2.2/CRUD Operations.TagHelpers.output.cache
+/Users/shehryarkhan/Projects/CRUD Operations/obj/Debug/netcoreapp2.2/CRUD Operations.RazorCoreGenerate.cache
+/Users/shehryarkhan/Projects/CRUD Operations/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs
+/Users/shehryarkhan/Projects/CRUD Operations/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs
+/Users/shehryarkhan/Projects/CRUD Operations/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_MainMenu.g.cshtml.cs
+/Users/shehryarkhan/Projects/CRUD Operations/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs
+/Users/shehryarkhan/Projects/CRUD Operations/obj/Debug/netcoreapp2.2/CRUD Operations.RazorTargetAssemblyInfo.cache
+/Users/shehryarkhan/Projects/CRUD Operations/obj/Debug/netcoreapp2.2/CRUD Operations.RazorTargetAssemblyInfo.cs
+/Users/shehryarkhan/Projects/CRUD Operations/obj/Debug/netcoreapp2.2/CRUD Operations.Views.pdb
+/Users/shehryarkhan/Projects/CRUD Operations/obj/Debug/netcoreapp2.2/CRUD Operations.dll
+/Users/shehryarkhan/Projects/CRUD Operations/obj/Debug/netcoreapp2.2/CRUD Operations.pdb
+/Users/shehryarkhan/Projects/CRUD Operations/obj/Debug/netcoreapp2.2/CRUD Operations.csproj.CopyComplete
+/Users/shehryarkhan/Projects/CRUD Operations/obj/Debug/netcoreapp2.2/Razor/Views/Doctors/Create.g.cshtml.cs
+/Users/shehryarkhan/Projects/CRUD Operations/obj/Debug/netcoreapp2.2/Razor/Views/Doctors/Index.g.cshtml.cs
+/Users/shehryarkhan/Projects/CRUD Operations/obj/Debug/netcoreapp2.2/Razor/Views/Doctors/Update.g.cshtml.cs

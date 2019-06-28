@@ -1,0 +1,92 @@
+@model IEnumerable<CRUD_Operations.Models.Doctors>
+<section class="content-header">
+    <h1>
+    Doctors
+    </h1>
+    <ol class="breadcrumb">
+    <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
+    <li class="active">Doctors</li>
+    </ol>
+</section>
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+    <div class="col-xs-12">
+        <div class="box">
+        <div class="box-header">
+            <h3 class="box-title">Manage Doctors</h3>
+        </div>
+        <!-- /.box-header -->
+        <div class="box-body">
+            <table id="example1" class="table table-bordered table-striped">
+            <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Phone</th>
+                <th>Created</th>
+                <th>Specialist</th>
+                <th>Action</th>
+            </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Id)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Email)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Phone)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Created)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Specialist)</td>
+                    <td><a href="Doctors/Update/@item.Id">Update</a> | <a href="" onclick="Delete('@item.Id')">Delete</a></td>
+                    </tr>
+                }
+            </table>
+        </div>
+        <!-- /.box-body -->
+        </div>
+        <!-- /.box -->
+    </div>
+    <!-- /.col -->
+    </div>
+    <!-- /.row -->
+</section>
+   
+<!-- DataTables -->
+<script src="~/bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="~/bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+<!-- page script -->
+<script>
+    $(function () {
+        $('#example1').DataTable();
+    });
+    function Delete(id){
+        var txt;
+        var r = confirm("Are you sure you want to Delete?");
+        if (r == true) {
+            
+            $.ajax(
+            {
+                type: "POST",
+                url: '@Url.Action("Delete", "Doctors")',
+                data: {
+                    id: id
+                },
+                error: function (result) {
+                    alert("error");
+                },
+                success: function (result) {
+                    if (result == true) {
+                        var baseUrl="/Doctors";
+                        window.location.reload();
+                    }
+                    else {
+                        alert("There is a problem, Try Later!");
+                    }
+                }
+            });
+        } 
+    }
+</script>
